@@ -11,9 +11,9 @@ Register Instances of all micorservices
 
 **APIGATEWAY** - 
 
-AUTHENTICATE -  REQUEST TOKEN FROM AUTH-SERVER FROM API-GATEWAY
+AUTHENTICATE -  REQUEST TOKEN TO AUTH-SERVER 
 
-API-GATEWAY - Token fetched from Auth- server 
+Api gateway endpoint - Token fetched from Auth- server 
 
 ![image](https://github.com/user-attachments/assets/d6c3dd50-5a80-4363-818c-b17d851d9322)
 
@@ -26,11 +26,21 @@ Routing handled to Auth-Server to fetch the token from API-Gateway
 
 
 
-Order service - 
+Api gateway endpoint - to hit Order service - 
 
-![image](https://github.com/user-attachments/assets/c3538e97-6d9e-4ed3-a7bc-de1831bf25ee)
 
-Product service - 
+Authorization - Bearer Token
+
+![image](https://github.com/user-attachments/assets/0bef2adb-d496-40dc-a230-352d5f7cade0)
+
+
+401 UnAuthorized - Token Invalid
+
+![image](https://github.com/user-attachments/assets/189469d1-6251-4924-bd4f-b95d6d788941)
+
+
+
+Api gateway endpoint - to hit 
 
 ![image](https://github.com/user-attachments/assets/c016dce6-3586-4ff5-808e-5081513efc00)
 
