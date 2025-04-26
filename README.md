@@ -11,7 +11,18 @@ Register Instances of all micorservices
 
 **APIGATEWAY** - 
 
-AUTHENTICATE -  FETCH TOKEN FROM AUTH-SERVER AND ROUTED TO API-GATEWAY
+AUTHENTICATE -  REQUEST TOKEN FROM AUTH-SERVER FROM API-GATEWAY
+
+API-GATEWAY - Token fetched from Auth- server 
+
+![image](https://github.com/user-attachments/assets/d6c3dd50-5a80-4363-818c-b17d851d9322)
+
+Routing handled to Auth-Server to fetch the token from API-Gateway 
+
+![image](https://github.com/user-attachments/assets/d3c6bd0b-42bf-48fe-9576-44b768a85fde)
+
+
+
 
 
 
