@@ -2,9 +2,11 @@
 
 **Eureka Server** - 
 
-Register Instances of all micorservices
+Register Instances of all micorservices,
+**Product, Order and RxProduct services has multiple Instances**
 
-![image](https://github.com/user-attachments/assets/902fbcab-6e6a-48a5-b058-71a56af6b458)
+![image](https://github.com/user-attachments/assets/720b49ee-47b1-4a31-989c-8d6bef1b8a0c)
+
 
 
 
